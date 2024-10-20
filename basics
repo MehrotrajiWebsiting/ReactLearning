@@ -1,0 +1,14 @@
+Documentaion - https://react.dev/
+
+npx create-react-app <NAME> - to create React Project (slow)
+npm run start - (inside project) To run application in browser
+npm run build - Creates build folder which has static assets which also has JS code written in React which is served to users in PRODUCTION
+
+In source delete all except - App.js, index.js and also delete  the imports in these classes related to those deleted
+
+VITE - Bundler to create React Project
+npm create vite@latest (press enter) <ProjectName> (press Enter) React (press Enter) Javascript  - To create React Project
+npm install - (inside poject) Install required projects (already installed when using npx)
+npm run dev - Run project in browser
+
+In source delete all except - App.jsx, main.jsx and also delete  the imports in these classes related to those deleted
