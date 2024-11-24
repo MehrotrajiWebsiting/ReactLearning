@@ -13,3 +13,9 @@ In react app you may also use js files BUT in vite it must be jsx
 
 ONLY ONE ELEMENT CAN BE RETURNED IN jsx file
 to return multiple elements, put them inside a single tag like <> </> - empty tag
+
+<App /> - it is calling App function (both will work inside render()) (same as writing html code directly inside render)
+we can also write App() IF function is written inside the same file (exported function must be used as tags only)
+
+To use js variables in html write them inside {}
+eg- {variable} = here, {variable} is called expression and it is an evaluated expression ,i.e, only final evaluated outcome of js is written here,i.e, you cannot write js here
