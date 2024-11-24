@@ -1,0 +1,15 @@
+MAIN FILE is index.html
+
+In react application - index.js is loaded in index.html by react-scripts (in package.json)
+In vite application - main.jsx is loaded in index.html by normal script tag
+
+In main.jsx (or index.js in npx create....) -
+jsx used to render HTML elements through javascript (custom tags) 
+e.g - App tag - this function in written in App.jsx which return html code (Rendered on webpages)
+
+
+Components are the functions stored in jsx files and exported AND their name must begin with UPPERCASE
+In react app you may also use js files BUT in vite it must be jsx
+
+ONLY ONE ELEMENT CAN BE RETURNED IN jsx file
+to return multiple elements, put them inside a single tag like <> </> - empty tag

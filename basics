@@ -1,4 +1,4 @@
-Documentaion - https://react.dev/
+Documentation - https://react.dev/
 
 npx create-react-app <NAME> - to create React Project (slow)
 npm run start - (inside project) To run application in browser
@@ -12,3 +12,13 @@ npm install - (inside poject) Install required projects (already installed when 
 npm run dev - Run project in browser
 
 In source delete all except - App.jsx, main.jsx and also delete  the imports in these classes related to those deleted
+
+For npx create-react-app <NAME>
+package.json - 
+start - run project in development environment
+build - production/generate html css and js from react code for browser
+test - run testcases
+eject - eject application from react and use some new framework...
+
+eslintConfig (linting process) - lines that come in code to tell better approach
+browserslist - browser on which it works
